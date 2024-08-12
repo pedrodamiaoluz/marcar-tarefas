@@ -11,15 +11,33 @@ body{
 }
 
 .container{
-    max-width: 1280px;
+    max-width: 1900px;
     margin: 0 auto;
 }
 
+header{
+    background: no-repeat center/cover url('./imagem/To_Do_List.png');
+    height: 200px;
+}
+
+header > h1{
+    padding: 4rem 2rem;
+    text-align: start;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+}
+
 .container__adicionar-tarefa{
+    background-color: #000000b9;
+    max-width: 335px;
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 20px 0;
+    padding: 20px 0px;
+    margin: 30px 0 30px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .container__adicionar-tarefa .input-tarefa{
@@ -27,13 +45,13 @@ body{
     background-color: #fff;
     padding: 10px;
     border-radius: 5px;
-    margin-right: 10px;
+    margin: 5px 20px;
     outline: none;;
 }
 
 .container__adicionar-tarefa .btn-adicionar{
     background-color: #fff;
-    padding: 5px 10px;
+    padding: 10px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
@@ -42,22 +60,3 @@ body{
     transition: .2s;
 }
 
-.container__adicionar-tarefa .btn-adicionar:hover{
-    border: 2px solid red;
-    background-color: transparent;
-    color: #000;
-
-}
-
-header{
-    background: no-repeat center/cover url('To_Do_List.png');
-    height: 200px;
-}
-
-h1{
-    padding: 4rem 2rem;
-    text-align: start;
-    color: #fff;
-    font-size: 40px;
-    font-weight: 900;
-}
