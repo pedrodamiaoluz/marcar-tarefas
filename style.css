@@ -1,0 +1,63 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.container__adicionar-tarefa{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.container__adicionar-tarefa .input-tarefa{
+    border: none;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;;
+}
+
+.container__adicionar-tarefa .btn-adicionar{
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.container__adicionar-tarefa .btn-adicionar:hover{
+    border: 2px solid red;
+    background-color: transparent;
+    color: #000;
+
+}
+
+header{
+    background: no-repeat center/cover url('To_Do_List.png');
+    height: 200px;
+}
+
+h1{
+    padding: 4rem 2rem;
+    text-align: start;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+}
