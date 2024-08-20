@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcado de Tarefa</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./Js/app.js" defer></script>
 </head>
+
 <body>
     <header>
         <h1>Marcado de Tarefas</h1>
     </header>
+
     <div class="container">
         <div class="container__adicionar-tarefa">
-            <input class="input-tarefa" type="text" name="tarefa" id="" placeholder="Insira a sua tarefa">
-            <button class="btn-adicionar">Adicionar</button>
+            <input class="input-tarefa" id="inputtarefa" type="text" name="tarefa" id=""
+                placeholder="Insira a sua tarefa">
+            <button class="btn-adicionar" id="btnadicionar" onclick="adicionar()">Adicionar</button>
         </div>
-     <ul id="lista-tarefas">
-          
-     </ul>
+        <ul id="listatarefas"></ul>
     </div>
-    <script src="./app.js"></script>
 </body>
+
 </html>
